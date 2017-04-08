@@ -50,6 +50,7 @@
     <Compile Include="ConsoleOutput.cs" />
     <Compile Include="IDateWriter.cs" />
     <Compile Include="IOutput.cs" />
+    <Compile Include="NowWriter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TodayWriter.cs" />

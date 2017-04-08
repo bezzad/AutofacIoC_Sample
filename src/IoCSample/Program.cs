@@ -20,6 +20,8 @@ namespace IoCSample
             // via its interface:
             builder.RegisterType<ConsoleOutput>().As<IOutput>();
             builder.RegisterType<TodayWriter>().As<IDateWriter>();
+            builder.RegisterType<NowWriter>().As<IDateWriter>(); // override IDataWriter registeration
+
 
             Container = builder.Build();
 
